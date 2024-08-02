@@ -5,7 +5,7 @@ async function removeBackground() {
         return;
     }
 
-    const apiKey = 'xxP4KjtyLXX84EsnRKxM3KUC'; // Replace with your API key
+    const apiKey = 'xxP4KjtyLXX84EsnRKxM3KUC'; // your API key
     const formData = new FormData();
     formData.append('image_file', imageInput);
     formData.append('size', 'auto');
